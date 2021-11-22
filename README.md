@@ -1,1 +1,1 @@
-# CS698R-Project-Foraging-in-a-field--3
+# CS698R-Project-Foraging-in-a-Field-3
