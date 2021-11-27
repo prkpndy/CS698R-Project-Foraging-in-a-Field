@@ -15,17 +15,17 @@ Data of Berries and Patches are pre-defined under the data folder.
 <h2>For the Environment - (berry_field_mat_input_env.py)</h2> 
 
 
-* "unordered", "ordered", "buckets" are three defferent observation types that are supported.
+"unordered", "ordered", "buckets" are three defferent observation types that are supported.
    
-* "unordered", "ordered" are a 40x5 matrix with the columns as: "iS_berry", "unitvector_x", "unitvector_y", "distance", "size_of_berry"
+"unordered", "ordered" are a 40x5 matrix with the columns as: "iS_berry", "unitvector_x", "unitvector_y", "distance", "size_of_berry"
  
-* unordered observation type:
+unordered observation type:
  - append information into the 40x5 matrix in as the berry are detected.
 
-* ordered observation type:
+ordered observation type:
  - take the unordered observation and sort the berries in clockwise sense.
 
-* buckets observation type:
+buckets observation type:
  - divides the obsrvtion space into num_buckets number of equi-angular segments.
  - output matrix of shape (num_buckets, 2) with the collumns as "average-size-of-berry", "average-distance-to-berry". 
  - each row in a matrix represnts the corresponding segment in clockwise order.
