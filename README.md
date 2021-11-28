@@ -46,4 +46,6 @@ buckets observation type:
  - output matrix of shape (num_buckets, 2) with the collumns as "average-size-of-berry", "average-distance-to-berry". 
  - each row in a matrix represnts the corresponding segment in clockwise order.
  - if there is no berry in an angular segment, the corresponding row contains all zeros
+
+The Utils folder (in the env) has different components which are used in the implementation of the same. The names of the folders are trivial to the job they do.
  
